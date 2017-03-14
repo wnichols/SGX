@@ -136,7 +136,7 @@ Vagrant.configure("2") do |config|
 
 	
     echo "YOU CAN USE REMOTEDESKTOP TO ACCESS THIS MACHINE ON PORT 13389"
-    
+       
     echo "LD_LIBRARY_PATH=/home/vagrant/git/github.com/linux-sgx/sgxsdk/sdk_libs" > /etc/profile.d/sgx_path.sh
     
   SHELL
